@@ -1,0 +1,16 @@
+scikit-learn==0.24.1
+opencv-python==4.5.1.48
+tqdm
+numpy==1.19.5
+scipy==1.6.0
+rich==9.10.0
+torch==1.7.1
+torchvision==0.8.2
+torchinfo==0.0.6
+Pillow
+pandas==1.2.1
+albumentations==0.5.2
+setuptools
+mlflow==1.14.0
+
+
