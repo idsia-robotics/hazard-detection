@@ -6,7 +6,9 @@ The dataset can be find on Zenodo at https://zenodo.org/record/5520933
 
 
 The relative papers are under review.
-Under `./code` you can find the code used for the paper. We use python 3.8 and the requirements in `./code/requirementes.txt`; follow the README.md under the `./code` to install and run the models.
+Under `./code` you can find the code used for the -PAPER 1- under `./code/OLD_CODE` and the code for -PAPER 2- under `./code/Latest`.
+
+We use python 3.8 and the requirements in `./code/Latest/requirementes.txt`; follow the README.md under the `./code/Latest` to install and run the models.
 
 
 # Scenarios
