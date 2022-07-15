@@ -15,8 +15,8 @@ The dataset is composed of three different scenarios:
 - Factory
 - Corridors
 
-In the version of the dataset of paper <PAPER1> the Corridors scenario has 52'607 samples and 8 anomalies. 
-In paper <PAPER2> we extended this scenario up to 132'838 frames and 16 anomalies.
+In the version of the dataset of paper -PAPER1- the Corridors scenario has 52'607 samples and 8 anomalies. 
+In paper -PAPER2- we extended this scenario up to 132'838 frames and 16 anomalies.
 
 ## Description
 Across the three scenarios we recorded various normal situations and numerous anomalies.
@@ -51,4 +51,4 @@ The anomalies are the following:
 # How to cite
 If you use this dataset please cite it using the following bib
 
-<PLACEHOLDER>
+-PLACEHOLDER-
