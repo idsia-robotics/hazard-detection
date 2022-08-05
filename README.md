@@ -1,4 +1,4 @@
-# Hazard Detection
+# Anomaly Detection for Robots
 This is the main repository for the dataset Dataset for Sensing Anomalies as Potential Hazards in Mobile Robots.
 The dataset can be find on Zenodo at https://zenodo.org/record/5520933
 
@@ -25,31 +25,108 @@ Across the three scenarios we recorded various normal situations and numerous an
 The anomalies are the following:
 <!-- AN1 - image - description -->
 ### Tunnel Anomalies
- Wet
- Root
- Dust
+Normal
+
+![tun_normal](images/tunnel/normal1.jpg)
+
+Wet
+
+![wet](images/tunnel/wet1.jpg)
+
+Root
+
+![root](images/tunnel/root1.jpg)
+
+Dust
+
+![dust](images/tunnel/dust1.jpg)
+
 ### Factory Anomalies
- Mist
- Tape
+Normal
+
+![fact_normal](images/factory/normal1.jpg)
+
+Mist
+ 
+![dust](images/factory/mist1.jpg)
+
+Tape
+
+![dust](images/factory/tape1.jpg)
+
 ### Corridors Anomalies
- normal
- box
- cable
- debris
- defects
- door
- human
- misc
- clutter
- foam
- sawdust
- shard
- cellophane
- floor
- screws
- water
- cones
- hanging cables
+normal
+
+![corridor_normal](images/corridor/normal1.jpg)
+
+box
+
+![box](images/corridor/box.jpg)
+
+cable
+
+![cable](images/corridor/cable.jpg)
+
+debris
+
+![debris](images/corridor/debris.jpg)
+
+defects
+
+![defects](images/corridor/defects.jpg)
+
+door
+
+![door](images/corridor/door.jpg)
+
+human
+
+![human](images/corridor/human.jpg)
+
+misc
+
+![misc](images/corridor/misc.jpg)
+
+clutter
+
+![clutter](images/corridor/clutter.jpg)
+
+foam
+
+![foam](images/corridor/foam.jpg)
+
+sawdust
+
+![sawdust](images/corridor/sawdust.jpg)
+
+shard
+
+![shard](images/corridor/shard.jpg)
+
+cellophane
+
+![cellophane](images/corridor/cellophane.jpg)
+
+floor
+
+![floor](images/corridor/floor.jpg)
+
+screws
+
+![screws](images/corridor/screws.jpg)
+
+water
+
+![water](images/corridor/water.jpg)
+
+cones
+
+![cones](images/corridor/cones.jpg)
+
+hanging cables
+
+![naghingcables](images/corridor/hanging_cable.jpg)
+
 # How to cite
 If you use this dataset please cite it using the following bib
 
