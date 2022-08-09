@@ -25,109 +25,113 @@ Across the three scenarios we recorded various normal situations and numerous an
 The anomalies are the following:
 <!-- AN1 - image - description -->
 ### Tunnel Anomalies
-Normal
+Normal - Empty underground man made tunnel
 
-![tun_normal](images/tunnel/normal1.jpg)
+<img src="images/tunnel/normal1.jpg" alt="tun_normal" width="356"/>
 
-Wet
+Wet - Water condensation on the tunnel walls and cieling
 
-![wet](images/tunnel/wet1.jpg)
+<img src="images/tunnel/wet1.jpg" alt="wet" width="356"/>
 
-Root
+Root - Roots coming down from the cieling and walls
 
-![root](images/tunnel/root1.jpg)
+<img src="images/tunnel/root1.jpg" alt="root" width="356"/>
 
-Dust
+Dust - Dust moved by the drone 
 
-![dust](images/tunnel/dust1.jpg)
+<img src="images/tunnel/dust1.jpg" alt="dust" width="356"/>
 
 ### Factory Anomalies
-Normal
+Normal - Empty factory facility
 
-![fact_normal](images/factory/normal1.jpg)
+<img src="images/factory/normal1.jpg" alt="fact_normal" width="356"/>
 
-Mist
- 
-![dust](images/factory/mist1.jpg)
+Mist - Mist coming from a smoke machine
 
-Tape
+<img src="images/factory/mist1.jpg" alt="mist" width="356"/>
 
-![dust](images/factory/tape1.jpg)
+Tape - Signaling tape stretched across the facility
+
+<img src="images/factory/tape1.jpg" alt="tape" width="356"/>
 
 ### Corridors Anomalies
-normal
+Normal - Empty university corridors (on different floors)
 
-![corridor_normal](images/corridor/normal1.jpg)
+<img src="images/corridor/normal1.jpg" alt="corridor_normal" width="356"/>
+<img src="images/corridor/normal2.jpg" alt="corridor_normal2" width="356"/>
+<img src="images/corridor/normal3.jpg" alt="corridor_normal3" width="356"/>
 
-box
+Box - Cardboard boxes placed infront/near of the robot
 
-![box](images/corridor/box.jpg)
+<img src="images/corridor/box.jpg" alt="box" width="356"/>
 
-cable
+Cable - Various cables layed on the floor around and infront of the robot
 
-![cable](images/corridor/cable.jpg)
+<img src="images/corridor/cable.jpg" alt="cable" width="356"/>
 
-debris
+Debris - Various debris 
 
-![debris](images/corridor/debris.jpg)
+<img src="images/corridor/debris.jpg" alt="debris" width="356"/>
 
-defects
+Defects - Defects of the robot
 
-![defects](images/corridor/defects.jpg)
+<img src="images/corridor/defects.jpg" alt="defects" width="356"/>
 
-door
+Door - Open doors where doors should be closed
 
-![door](images/corridor/door.jpg)
+<img src="images/corridor/door.jpg" alt="door" width="356"/>
 
-human
+Human - Human presence
 
-![human](images/corridor/human.jpg)
+<img src="images/corridor/human.jpg" alt="human" width="356"/>
 
-misc
+Clutter - Chairs, tables and furnitures moved around the corridor
 
-![misc](images/corridor/misc.jpg)
+<img src="images/corridor/clutter.jpg" alt="clutter" width="356"/>
 
-clutter
+Foam - Foam placed on the floor
 
-![clutter](images/corridor/clutter.jpg)
+<img src="images/corridor/foam.jpg" alt="foam" width="356"/>
 
-foam
+Sawdust - Sawdust placed on the floor
 
-![foam](images/corridor/foam.jpg)
+<img src="images/corridor/sawdust.jpg" alt="sawdust" width="356"/>
 
-sawdust
+Cellophane - Cellophane foil streched between walls
 
-![sawdust](images/corridor/sawdust.jpg)
+<img src="images/corridor/cellophane.jpg" alt="cellophane" width="356"/>
 
-shard
+Floor - Fake flooring different than original floor
 
-![shard](images/corridor/shard.jpg)
+<img src="images/corridor/floor.jpg" alt="floor" width="356"/>
 
-cellophane
+Screws - Small screwes and bolts placed infront of the robot
 
-![cellophane](images/corridor/cellophane.jpg)
+<img src="images/corridor/screws.jpg" alt="screws" width="356"/>
 
-floor
+Water - Water puddle infront of robot
 
-![floor](images/corridor/floor.jpg)
+<img src="images/corridor/water.jpg" alt="water" width="356"/>
 
-screws
+Cones - Multiple orange cones placed in the corridor
 
-![screws](images/corridor/screws.jpg)
+<img src="images/corridor/cones.jpg" alt="cones" width="356"/>
 
-water
+Hanging cables - Cables hanging from the cieling
 
-![water](images/corridor/water.jpg)
+<img src="images/corridor/hanging_cable.jpg" alt="hanghingcables" width="356"/>
 
-cones
 
-![cones](images/corridor/cones.jpg)
-
-hanging cables
-
-![naghingcables](images/corridor/hanging_cable.jpg)
-
-# How to cite
+## How to cite
 If you use this dataset please cite it using the following bib
 
--PLACEHOLDER-
+    @ARTICLE{mantegazza2022outlier,
+        author={Mantegazza, Dario and Giusti, Alessandro and Gambardella, Luca Maria and Guzzi, Jérôme}, 
+        journal={IEEE Robotics and Automation Letters},
+        title={An Outlier Exposure Approach to Improve Visual Anomaly Detection Performance for Mobile Robots.},
+        year={2022}, 
+        volume={},
+        number={}, 
+        pages={1-8}, 
+        doi={10.1109/LRA.2022.3192794}
+      }
