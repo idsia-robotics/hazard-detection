@@ -34,7 +34,7 @@ ArXiv: TODO
     and shows that exposing even a small number of anomalous frames yields significant 
     performance improvements.
 
-Pubblished in [Robotics and Automation Letters](https://www.ieee-ras.org/publications/ra-l) 
+Published in [Robotics and Automation Letters](https://www.ieee-ras.org/publications/ra-l) 
 <!-- volume .... year ... -->
 
 DOI: https://doi.org/10.1109/LRA.2022.3192794
@@ -44,7 +44,7 @@ ArXiv: TODO
 ## Codes
 Under `./code` you can find the code used for the <em>TAROS</em> paper under `./code/OLD_CODE` and the code for <em>RAL</em> paper under `./code/Latest`.
 
-We use python 3.8 and the requirements in `./code/Latest/requirementes.txt`; follow the README.md under the `./code/Latest` to install and run the models.
+We use python 3.8 and the requirements in `./code/Latest/requirements.txt`; follow the README.md under the `./code/Latest` to install and run the models.
 
 
 # Description
@@ -55,9 +55,12 @@ The dataset is composed of three different scenarios:
 
 In the version of the dataset of the <em>TAROS</em> paper the Corridors scenario has 52'607 samples and 8 anomalies. 
 In the <em>RAL</em> paper we extended this scenario up to 132'838 frames and 16 anomalies.
-<!-- AN1 - image - description -->
+<figure>
+<img src="images/dataset_examplev4.png" alt="RAL_paper_anomalies" style="background-color:white;"/>
+<figcaption align = "center">Examples of samples from the <em>RAL</em> paper </figcaption>
+</figure>
 
-### Fundings
+### Funding
 This work was supported as a part of NCCR Robotics, a National Centre of Competence in Research, funded by the Swiss National Science Foundation (grant number 51NF40\_185543) and by the European Commission through the Horizon 2020 project 1-SWARM, grant ID 871743.
 
 # How to cite
@@ -73,103 +76,138 @@ If you use this dataset please cite it using the following bib
         pages={1-8}, 
         doi={10.1109/LRA.2022.3192794}
       }
-# Anomalies Examples
+# Frames Examples
 Across the three scenarios described before, we recorded various normal situations and numerous anomalies.
 The anomalies are the following:
 ### Tunnel Anomalies
-Normal - Empty underground man made tunnel
+<details>
+  <summary>Click for high resolution examples</summary>
+<figure>
+<img src="images/tunnel/normal1.jpg" alt="tun_normal" width="512"/>
+<figcaption align = "left"><b>Normal</b> - Empty underground man made tunnel</figcaption>
+</figure>
 
-<img src="images/tunnel/normal1.jpg" alt="tun_normal" width="356"/>
+<figure>
+<img src="images/tunnel/wet1.jpg" alt="wet" width="512"/>
+<figcaption align = "left"><b>Wet</b> - Water condensation on the tunnel walls and ceiling</figcaption>
+</figure>
 
-Wet - Water condensation on the tunnel walls and cieling
+<figure>
+<img src="images/tunnel/root1.jpg" alt="root" width="512"/>
+<figcaption align="left"><b>Root</b> - Roots coming down from the ceiling and walls</figcaption>
+</figure>
 
-<img src="images/tunnel/wet1.jpg" alt="wet" width="356"/>
+<figure>
+<img src="images/tunnel/dust1.jpg" alt="dust" width="512"/>
+<figcaption align="left"><b>Dust</b> - Dust moved by the drone </figcaption>
+</figure>
 
-Root - Roots coming down from the cieling and walls
-
-<img src="images/tunnel/root1.jpg" alt="root" width="356"/>
-
-Dust - Dust moved by the drone 
-
-<img src="images/tunnel/dust1.jpg" alt="dust" width="356"/>
+</details>
 
 ### Factory Anomalies
-Normal - Empty factory facility
+<details>
+  <summary>Click for high resolution examples</summary>
 
-<img src="images/factory/normal1.jpg" alt="fact_normal" width="356"/>
+<figure>
+<img src="images/factory/normal1.jpg" alt="fact_normal" width="512"/>
+<figcaption align="left"><b>Normal</b> - Empty factory facility</figcaption>
+</figure>
 
-Mist - Mist coming from a smoke machine
+<figure>
+<img src="images/factory/mist1.jpg" alt="mist" width="512"/>
+<figcaption align="left"><b>Mist</b> - Mist coming from a smoke machine</figcaption>
+</figure>
 
-<img src="images/factory/mist1.jpg" alt="mist" width="356"/>
+<figure>
+<img src="images/factory/tape1.jpg" alt="tape" width="512"/>
+<figcaption align="left"><b>Tape</b> - Signaling tape stretched across the facility</figcaption>
+</figure>
 
-Tape - Signaling tape stretched across the facility
-
-<img src="images/factory/tape1.jpg" alt="tape" width="356"/>
+</details>
 
 ### Corridors Anomalies
-Normal - Empty university corridors (on different floors)
+<details>
+  <summary>Click for high resolution examples</summary>
 
-<img src="images/corridor/normal1.jpg" alt="corridor_normal" width="356"/>
-<img src="images/corridor/normal2.jpg" alt="corridor_normal2" width="356"/>
-<img src="images/corridor/normal3.jpg" alt="corridor_normal3" width="356"/>
+<figure>
+<img src="images/corridor/normal1.jpg" alt="corridor_normal" width="512"/>
+<img src="images/corridor/normal2.jpg" alt="corridor_normal2" width="512"/>
+<img src="images/corridor/normal3.jpg" alt="corridor_normal3" width="512"/>
+<figcaption align="left"><b>Normal</b> - Empty university corridors (on different floors)</figcaption>
+</figure>
 
-Box - Cardboard boxes placed infront/near of the robot
+<figure>
+<img src="images/corridor/box.jpg" alt="box" width="512"/>
+<figcaption align="left"><b>Box</b> - Cardboard boxes placed in front/near of the robot</figcaption>
+</figure>
 
-<img src="images/corridor/box.jpg" alt="box" width="356"/>
+<figure>
+<img src="images/corridor/cable.jpg" alt="cable" width="512"/>
+<figcaption align="left"><b>Cable</b> - Various cables layed on the floor around and in front of the robot</figcaption>
+</figure>
 
-Cable - Various cables layed on the floor around and infront of the robot
+<figure>
+<img src="images/corridor/debris.jpg" alt="debris" width="512"/>
+<figcaption align="left"><b>Debris</b> - Various debris </figcaption>
+</figure>
 
-<img src="images/corridor/cable.jpg" alt="cable" width="356"/>
+<figure>
+<img src="images/corridor/defects.jpg" alt="defects" width="512"/>
+<figcaption align="left"><b>Defects</b> - Defects of the robot</figcaption>
+</figure>
 
-Debris - Various debris 
+<figure>
+<img src="images/corridor/door.jpg" alt="door" width="512"/>
+<figcaption align="left"><b>Door</b> - Open doors where doors should be closed</figcaption>
+</figure>
 
-<img src="images/corridor/debris.jpg" alt="debris" width="356"/>
+<figure>
+<img src="images/corridor/human.jpg" alt="human" width="512"/>
+<figcaption align="left"><b>Human</b> - Human presence</figcaption>
+</figure>
 
-Defects - Defects of the robot
+<figure>
+<img src="images/corridor/clutter.jpg" alt="clutter" width="512"/>
+<figcaption align="left"><b>Clutter</b> - Chairs, tables and furniture moved around the corridor</figcaption>
+</figure>
 
-<img src="images/corridor/defects.jpg" alt="defects" width="356"/>
+<figure>
+<img src="images/corridor/foam.jpg" alt="foam" width="512"/>
+<figcaption align="left"><b>Foam</b> - Foam placed on the floor</figcaption>
+</figure>
 
-Door - Open doors where doors should be closed
+<figure>
+<img src="images/corridor/sawdust.jpg" alt="sawdust" width="512"/>
+<figcaption align="left"><b>Sawdust</b> - Sawdust placed on the floor</figcaption>
+</figure>
 
-<img src="images/corridor/door.jpg" alt="door" width="356"/>
+<figure>
+<img src="images/corridor/cellophane.jpg" alt="cellophane" width="512"/>
+<figcaption align="left"><b>Cellophane</b> - Cellophane foil stretched between walls</figcaption>
+</figure>
 
-Human - Human presence
+<figure>
+<img src="images/corridor/floor.jpg" alt="floor" width="512"/>
+<figcaption align="left"><b>Floor</b> - Fake flooring different than original floor</figcaption>
+</figure>
 
-<img src="images/corridor/human.jpg" alt="human" width="356"/>
+<figure>
+<img src="images/corridor/screws.jpg" alt="screws" width="512"/>
+<figcaption align="left"><b>Screws</b> - Small screws and bolts placed in front of the robot</figcaption>
+</figure>
 
-Clutter - Chairs, tables and furnitures moved around the corridor
+<figure>
+<img src="images/corridor/water.jpg" alt="water" width="512"/>
+<figcaption align="left"><b>Water</b> - Water puddle in front of robot</figcaption>
+</figure>
 
-<img src="images/corridor/clutter.jpg" alt="clutter" width="356"/>
+<figure>
+<img src="images/corridor/cones.jpg" alt="cones" width="512"/>
+<figcaption align="left"><b>Cones</b> - Multiple orange cones placed in the corridor</figcaption>
+</figure>
 
-Foam - Foam placed on the floor
-
-<img src="images/corridor/foam.jpg" alt="foam" width="356"/>
-
-Sawdust - Sawdust placed on the floor
-
-<img src="images/corridor/sawdust.jpg" alt="sawdust" width="356"/>
-
-Cellophane - Cellophane foil streched between walls
-
-<img src="images/corridor/cellophane.jpg" alt="cellophane" width="356"/>
-
-Floor - Fake flooring different than original floor
-
-<img src="images/corridor/floor.jpg" alt="floor" width="356"/>
-
-Screws - Small screwes and bolts placed infront of the robot
-
-<img src="images/corridor/screws.jpg" alt="screws" width="356"/>
-
-Water - Water puddle infront of robot
-
-<img src="images/corridor/water.jpg" alt="water" width="356"/>
-
-Cones - Multiple orange cones placed in the corridor
-
-<img src="images/corridor/cones.jpg" alt="cones" width="356"/>
-
-Hanging cables - Cables hanging from the cieling
-
-<img src="images/corridor/hanging_cable.jpg" alt="hanghingcables" width="356"/>
-
+<figure>
+<img src="images/corridor/hanging_cable.jpg" alt="hanghingcables" width="512"/>
+<figcaption align="left"><b>Hanging cables</b> - Cables hanging from the ceiling</figcaption>
+</figure>
+</details>
