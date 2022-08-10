@@ -82,25 +82,29 @@ The anomalies are the following:
 ### Tunnel Anomalies
 <details>
   <summary>Click for high resolution examples</summary>
+
 <figure class="image">
 <img src="images/tunnel/normal1.jpg" alt="tun_normal" width="512"/>
 <figcaption><b>Normal</b> - Empty underground man made tunnel</figcaption>
 </figure>
-
+<p></p>
 <figure>
 <img src="images/tunnel/wet1.jpg" alt="wet" width="512"/>
 <figcaption><b>Wet</b> - Water condensation on the tunnel walls and ceiling</figcaption>
 </figure>
+<p></p>
 
 <figure>
 <img src="images/tunnel/root1.jpg" alt="root" width="512"/>
 <figcaption><b>Root</b> - Roots coming down from the ceiling and walls</figcaption>
 </figure>
+<p></p>
 
 <figure>
 <img src="images/tunnel/dust1.jpg" alt="dust" width="512"/>
 <figcaption><b>Dust</b> - Dust moved by the drone </figcaption>
 </figure>
+<p></p>
 
 </details>
 
@@ -111,13 +115,15 @@ The anomalies are the following:
 <figure>
 <img src="images/factory/normal1.jpg" alt="fact_normal" width="512"/>
 <figcaption><b>Normal</b> - Empty factory facility</figcaption>
-
 </figure>
+<p></p>
+
 
 <figure>
 <img src="images/factory/mist1.jpg" alt="mist" width="512"/>
 <figcaption><b>Mist</b> - Mist coming from a smoke machine</figcaption>
 </figure>
+<p></p>
 
 <figure>
 <img src="images/factory/tape1.jpg" alt="tape" width="512"/>
@@ -136,79 +142,95 @@ The anomalies are the following:
 <img src="images/corridor/normal3.jpg" alt="corridor_normal3" width="512"/>
 <figcaption><b>Normal</b> - Empty university corridors (on different floors)</figcaption>
 </figure>
+<p></p>
 
 <figure>
 <img src="images/corridor/box.jpg" alt="box" width="512"/>
 <figcaption><b>Box</b> - Cardboard boxes placed in front/near of the robot</figcaption>
 </figure>
+<p></p>
 
 <figure>
 <img src="images/corridor/cable.jpg" alt="cable" width="512"/>
 <figcaption><b>Cable</b> - Various cables layed on the floor around and in front of the robot</figcaption>
 </figure>
+<p></p>
 
 <figure>
 <img src="images/corridor/debris.jpg" alt="debris" width="512"/>
 <figcaption><b>Debris</b> - Various debris </figcaption>
 </figure>
+<p></p>
 
 <figure>
 <img src="images/corridor/defects.jpg" alt="defects" width="512"/>
 <figcaption><b>Defects</b> - Defects of the robot</figcaption>
 </figure>
+<p></p>
 
 <figure>
 <img src="images/corridor/door.jpg" alt="door" width="512"/>
 <figcaption><b>Door</b> - Open doors where doors should be closed</figcaption>
 </figure>
+<p></p>
 
 <figure>
 <img src="images/corridor/human.jpg" alt="human" width="512"/>
 <figcaption><b>Human</b> - Human presence</figcaption>
 </figure>
+<p></p>
 
 <figure>
 <img src="images/corridor/clutter.jpg" alt="clutter" width="512"/>
 <figcaption><b>Clutter</b> - Chairs, tables and furniture moved around the corridor</figcaption>
 </figure>
+<p></p>
 
 <figure>
 <img src="images/corridor/foam.jpg" alt="foam" width="512"/>
 <figcaption><b>Foam</b> - Foam placed on the floor</figcaption>
 </figure>
+<p></p>
 
 <figure>
 <img src="images/corridor/sawdust.jpg" alt="sawdust" width="512"/>
 <figcaption><b>Sawdust</b> - Sawdust placed on the floor</figcaption>
 </figure>
+<p></p>
 
 <figure>
 <img src="images/corridor/cellophane.jpg" alt="cellophane" width="512"/>
 <figcaption><b>Cellophane</b> - Cellophane foil stretched between walls</figcaption>
 </figure>
+<p></p>
 
 <figure>
 <img src="images/corridor/floor.jpg" alt="floor" width="512"/>
 <figcaption><b>Floor</b> - Fake flooring different than original floor</figcaption>
 </figure>
+<p></p>
 
 <figure>
 <img src="images/corridor/screws.jpg" alt="screws" width="512"/>
 <figcaption><b>Screws</b> - Small screws and bolts placed in front of the robot</figcaption>
 </figure>
+<p></p>
 
 <figure>
 <img src="images/corridor/water.jpg" alt="water" width="512"/>
 <figcaption><b>Water</b> - Water puddle in front of robot</figcaption>
 </figure>
+<p></p>
 
 <figure>
 <img src="images/corridor/cones.jpg" alt="cones" width="512"/>
 <figcaption><b>Cones</b> - Multiple orange cones placed in the corridor</figcaption>
 </figure>
+<p></p>
 
 <figure>
 <img src="images/corridor/hanging_cable.jpg" alt="hanghingcables" width="512"/>
 <figcaption><b>Hanging cables</b> - Cables hanging from the ceiling</figcaption>
 </figure>
+
 </details>
