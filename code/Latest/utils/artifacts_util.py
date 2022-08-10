@@ -11,7 +11,52 @@ from check_create_folder import check_create_folder
 from models.autoencoder.autoencoder import AE
 
 
-# USED
+
+def oe_bin_class_model_artifact_saver(
+        batch_size: int,
+        embedding_size: int,
+        epochs: int,
+        lr: float,
+        metrics: DefaultDict[str, float],
+        test_set_df: pd.DataFrame,
+        model: AE,
+        artifacts_save_folder: str,
+        param: argparse.ArgumentParser,
+        csv_row: DefaultDict,
+        csv_key: str,
+        best_model_path: str,
+):
+    check_create_folder(artifacts_save_folder)
+    with open(artifacts_save_folder + 'train_info.txt', 'w') as txf:
+        txf.write(f"model type: ae\n"
+                      f"lr={lr}\n"
+                      f"batch_size={batch_size}\n"
+                      f"epochs={epochs}\n"
+                      f"embedding_size={embedding_size}\n"
+                      f"split_date = {param.split_date}")
+    model.eval()
+    summ = summary(model, input_size=(1, embedding_size), device="cpu", depth=4,
+                   col_names=["input_size", "output_size", "kernel_size", "num_params"])
+
+    with open(artifacts_save_folder + 'params.pk', 'wb') as fp:
+        pickle.dump(param, fp)
+
+    with open(artifacts_save_folder + 'metrics.pk', 'wb') as fp:
+        pickle.dump(metrics, fp)
+
+    with open(artifacts_save_folder + 'model_summary.txt', 'w') as txf:
+        txf.write(f"{summ}")
+
+    pd.DataFrame(csv_row, index=[0]).to_csv(artifacts_save_folder + f'{csv_key}.csv') # in the other code is from dict
+
+    with open(artifacts_save_folder + f'{csv_key}.pk', "wb") as fp:
+        pickle.dump(csv_row, fp)
+
+    shutil.copy2(best_model_path, artifacts_save_folder)
+    test_set_df.to_csv(artifacts_save_folder + f'{csv_key}_test_set_df.csv')
+    print(f"artifacts saved at {artifacts_save_folder}")
+
+
 def oe_rnvp_model_artifact_saver(
         batch_size: int,
         embedding_size: int,
