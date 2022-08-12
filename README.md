@@ -5,6 +5,8 @@ The dataset can be find on Zenodo at https://zenodo.org/record/5520933
 ## Papers
 <!-- The relative video is available at TODO -->
 ### <em>Sensing Anomalies as Potential Hazards: Datasets and Benchmarks</em>
+Dario Mantegazza, Carlos Redondo, Fran Espada, Luca M. Gambardella, Alessandro Giusti and Jerome Guzzi
+
     We consider the problem of detecting, in the visual sensing data stream of an 
     autonomous mobile robot, semantic patterns that are unusual (i.e., anomalous) with
     respect to the robot's previous experience in similar environments.  These 
@@ -15,13 +17,15 @@ The dataset can be find on Zenodo at https://zenodo.org/record/5520933
     datasets, we study the performance of an anomaly detection approach based on 
     autoencoders operating at different scales.
 
-To appear at the [23rd TAROS Conference](https://ukaeaevents.com/23rd-taros/)
+To appear at the [23rd TAROS 2022 Conference](https://ukaeaevents.com/23rd-taros/)
 
-DOI: TODO
+DOI: Coming Soon
 
-ArXiv: TODO
+ArXiv: Coming Soon
 
 ### <em>An Outlier Exposure Approach to Improve Visual Anomaly Detection Performance for Mobile Robots.</em>
+Dario Mantegazza, Alessandro Giusti, Luca Maria Gambardella and Jerome Guzzi
+
     We consider the problem of building visual anomaly detection systems for mobile 
     robots. Standard anomaly detection models are trained using large datasets composed 
     only of non-anomalous data. However, in robotics applications, it is often the case 
@@ -34,12 +38,12 @@ ArXiv: TODO
     and shows that exposing even a small number of anomalous frames yields significant 
     performance improvements.
 
-Published in [Robotics and Automation Letters](https://www.ieee-ras.org/publications/ra-l) 
+Published in [Robotics and Automation Letters](https://www.ieee-ras.org/publications/ra-l) year 2022
 <!-- volume .... year ... -->
 
 DOI: https://doi.org/10.1109/LRA.2022.3192794
 
-ArXiv: TODO
+ArXiv: Coming Soon
 
 ## Codes
 Under `./code` you can find the code used for the <em>TAROS</em> paper under `./code/OLD_CODE` and the code for <em>RAL</em> paper under `./code/Latest`.
