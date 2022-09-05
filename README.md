@@ -75,11 +75,12 @@ If you use this dataset please cite it using the following bib
         journal={IEEE Robotics and Automation Letters},
         title={An Outlier Exposure Approach to Improve Visual Anomaly Detection Performance for Mobile Robots.},
         year={2022}, 
-        volume={},
-        number={}, 
-        pages={1-8}, 
+        volume={7},
+        number={4}, 
+        pages={11354-11361}, 
         doi={10.1109/LRA.2022.3192794}
       }
+
 # Frames Examples
 Across the three scenarios described before, we recorded various normal situations and numerous anomalies.
 The anomalies are the following:
