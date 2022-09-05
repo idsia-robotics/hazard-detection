@@ -66,6 +66,11 @@ In the <em>RAL</em> paper we extended this scenario up to 132'838 frames and 16 
 
 ### Funding
 This work was supported as a part of NCCR Robotics, a National Centre of Competence in Research, funded by the Swiss National Science Foundation (grant number 51NF40\_185543) and by the European Commission through the Horizon 2020 project 1-SWARM, grant ID 871743.
+# Contact
+
+- If you have questions please contact us via email dario (dot) mantegazza (at) idsia (dot) ch
+- If you have problems with running our code, please open an issue and we will do our best to answer you
+- For more information about us visit our site https://idsia-robotics.github.io/
 
 # How to cite
 If you use this dataset please cite it using the following bib
