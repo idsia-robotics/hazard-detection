@@ -2,6 +2,8 @@
 This is the main repository for the dataset Dataset for Sensing Anomalies as Potential Hazards in Mobile Robots.
 The dataset can be find on Zenodo at https://zenodo.org/record/5520933
 
+NOTE: Due to a problem with Zenodo we cannot update the dataset https://twitter.com/ZENODO_ORG/status/1565307575360421889?cxt=HHwWgoCwmcm8i7krAAAA . As soon as this problem is solved we will provide the latest version of the dataset
+
 ## Papers
 <!-- The relative video is available at TODO -->
 ### <em>Sensing Anomalies as Potential Hazards: Datasets and Benchmarks</em>
