@@ -19,7 +19,7 @@ Dario Mantegazza, Carlos Redondo, Fran Espada, Luca M. Gambardella, Alessandro G
 
 To appear at the [23rd TAROS 2022 Conference](https://ukaeaevents.com/23rd-taros/)
 
-DOI: Coming Soon
+DOI: https://doi.org/10.1007/978-3-031-15908-4_17
 
 ArXiv: Coming Soon
 
