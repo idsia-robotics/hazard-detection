@@ -61,7 +61,7 @@ In the version of the dataset of the <em>TAROS</em> paper the Corridors scenario
 In the <em>RAL</em> paper we extended this scenario up to 132'838 frames and 16 anomalies.
 <figure>
 <img src="images/dataset_examplev4.png" alt="RAL_paper_anomalies" style="background-color:white;"/>
-<p align = "center">Examples of samples from the <em>RAL</em> paper </p>
+<p align = "center">Examples of samples of the <em>Corridors</em> scenario from the <em>RAL</em> paper </p>
 </figure>
 
 ### Funding
