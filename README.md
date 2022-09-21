@@ -21,7 +21,7 @@ To appear at the [23rd TAROS 2022 Conference](https://ukaeaevents.com/23rd-taros
 
 DOI: https://doi.org/10.1007/978-3-031-15908-4_17
 
-ArXiv: Coming Soon
+ArXiv: https://arxiv.org/abs/2110.14706
 
 ### <em>An Outlier Exposure Approach to Improve Visual Anomaly Detection Performance for Mobile Robots.</em>
 Dario Mantegazza, Alessandro Giusti, Luca Maria Gambardella and Jerome Guzzi
@@ -43,7 +43,7 @@ Published in [Robotics and Automation Letters](https://www.ieee-ras.org/publicat
 
 DOI: https://doi.org/10.1109/LRA.2022.3192794
 
-ArXiv: Coming Soon
+ArXiv: https://arxiv.org/abs/2209.09786
 
 ## Codes
 Under `./code` you can find the code used for the <em>TAROS</em> paper under `./code/OLD_CODE` and the code for <em>RAL</em> paper under `./code/Latest`.
