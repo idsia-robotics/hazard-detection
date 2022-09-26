@@ -20,7 +20,7 @@ Dario Mantegazza, Carlos Redondo, Fran Espada, Luca M. Gambardella, Alessandro G
     datasets, we study the performance of an anomaly detection approach based on 
     autoencoders operating at different scales.
 
-Appeared at the [23rd TAROS 2022 Conference](https://ukaeaevents.com/23rd-taros/)
+In the Proceedings of [23rd TAROS 2022 Conference](https://ukaeaevents.com/23rd-taros/)
 
 DOI: https://doi.org/10.1007/978-3-031-15908-4_17
 
