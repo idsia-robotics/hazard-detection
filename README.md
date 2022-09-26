@@ -17,7 +17,7 @@ Dario Mantegazza, Carlos Redondo, Fran Espada, Luca M. Gambardella, Alessandro G
     datasets, we study the performance of an anomaly detection approach based on 
     autoencoders operating at different scales.
 
-To appear at the [23rd TAROS 2022 Conference](https://ukaeaevents.com/23rd-taros/)
+Appeared at the [23rd TAROS 2022 Conference](https://ukaeaevents.com/23rd-taros/)
 
 DOI: https://doi.org/10.1007/978-3-031-15908-4_17
 
@@ -38,7 +38,7 @@ Dario Mantegazza, Alessandro Giusti, Luca Maria Gambardella and Jerome Guzzi
     and shows that exposing even a small number of anomalous frames yields significant 
     performance improvements.
 
-Published in [Robotics and Automation Letters](https://www.ieee-ras.org/publications/ra-l) year 2022
+Published in [Robotics and Automation Letters](https://www.ieee-ras.org/publications/ra-l) October 2022 Volume 7 Issue 4
 <!-- volume .... year ... -->
 
 DOI: https://doi.org/10.1109/LRA.2022.3192794
