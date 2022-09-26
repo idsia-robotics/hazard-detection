@@ -1,6 +1,9 @@
 # Hazards&Robots: A Dataset for Visual Anomaly Detection in Robotics
 This is the main repository for the dataset Dataset for Sensing Anomalies as Potential Hazards in Mobile Robots.
-The dataset can be find on Zenodo at https://zenodo.org/record/7074958 (RAL extension) and https://zenodo.org/record/7035788 (TAROS version)
+The dataset can be find on Zenodo:
+- (v1) TAROS version : https://zenodo.org/record/7035788
+- (v2) RAL extension : https://zenodo.org/record/7074958
+<!-- at https://zenodo.org/record/7074958 (RAL extension) and https://zenodo.org/record/7035788 (TAROS version) -->
 
 ## Papers
 <!-- The relative video is available at TODO -->
