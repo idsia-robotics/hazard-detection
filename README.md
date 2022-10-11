@@ -1,5 +1,6 @@
 # Hazards&Robots: A Dataset for Visual Anomaly Detection in Robotics
-This is the main repository for the dataset Dataset for Sensing Anomalies as Potential Hazards in Mobile Robots.
+This is the main repository for *Hazards&Robots: A Dataset for Visual Anomaly Detection in Robotics*.
+
 The dataset can be find on Zenodo:
 - (v1) TAROS version : https://zenodo.org/record/7035788
 - (v2) RAL extension : https://zenodo.org/record/7074958
@@ -27,7 +28,7 @@ DOI: https://doi.org/10.1007/978-3-031-15908-4_17
 ArXiv: https://arxiv.org/abs/2110.14706
 
 ### <em>An Outlier Exposure Approach to Improve Visual Anomaly Detection Performance for Mobile Robots.</em>
-Dario Mantegazza, Alessandro Giusti, Luca Maria Gambardella and Jerome Guzzi
+Dario Mantegazza, Alessandro Giusti, Luca M. Gambardella and Jerome Guzzi
 
     We consider the problem of building visual anomaly detection systems for mobile 
     robots. Standard anomaly detection models are trained using large datasets composed 
