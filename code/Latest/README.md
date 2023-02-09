@@ -37,6 +37,8 @@ With these embeddings it is possible to run `Python3.8 train_real_nvp.py -r root
 Use the other arguments to change the batch_size, number of workers, and computing device
 This script will save under `{root_path}/data/rnvp/saves/{model_key}/checkpoints/` the best models as `model_{model_key}_epoch_{epoch}.pth`.
 
+Note: the Real-NVP code is based on the one available from https://github.com/ispamm/realnvp-demo-pytorch
+
 ## Outlier Exposure
 The process is similar to the one of Real-NVP. 
 
