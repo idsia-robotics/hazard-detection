@@ -4,6 +4,7 @@ This is the main repository for *Hazards&Robots: A Dataset for Visual Anomaly De
 The dataset can be find on Zenodo:
 - (v1) TAROS version : https://zenodo.org/record/7035788
 - (v2) RAL extension : https://zenodo.org/record/7074958
+- (v3) TBD: TBD
 <!-- at https://zenodo.org/record/7074958 (RAL extension) and https://zenodo.org/record/7035788 (TAROS version) -->
 
 ## Papers
@@ -48,6 +49,9 @@ Published in [Robotics and Automation Letters](https://www.ieee-ras.org/publicat
 DOI: https://doi.org/10.1109/LRA.2022.3192794
 
 ArXiv: https://arxiv.org/abs/2209.09786
+
+### TBD 1
+
 
 ## Codes
 Under `./code` you can find the code used for the <em>TAROS</em> paper under `./code/OLD_CODE` and the code for <em>RAL</em> paper under `./code/Latest`.
