@@ -5,10 +5,10 @@ The dataset can be find on Zenodo:
 - (v1) TAROS version : https://zenodo.org/record/7035788
 - (v2) RAL extension : https://zenodo.org/record/7074958
 - (v3) TBD: TBD
-<!-- at https://zenodo.org/record/7074958 (RAL extension) and https://zenodo.org/record/7035788 (TAROS version) -->
+
 
 ## Papers
-<!-- The relative video is available at TODO -->
+
 ### <em>Sensing Anomalies as Potential Hazards: Datasets and Benchmarks</em>
 Dario Mantegazza, Carlos Redondo, Fran Espada, Luca M. Gambardella, Alessandro Giusti and Jerome Guzzi
 
@@ -44,13 +44,13 @@ Dario Mantegazza, Alessandro Giusti, Luca M. Gambardella and Jerome Guzzi
     performance improvements.
 
 Published in [Robotics and Automation Letters](https://www.ieee-ras.org/publications/ra-l) October 2022 Volume 7 Issue 4
-<!-- volume .... year ... -->
+
 
 DOI: https://doi.org/10.1109/LRA.2022.3192794
 
 ArXiv: https://arxiv.org/abs/2209.09786
 
-### TBD 1
+### TBD v3
 
 
 ## Codes
