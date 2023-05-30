@@ -1,10 +1,10 @@
 # Hazards&Robots: A Dataset for Visual Anomaly Detection in Robotics
-This is the main repository for *Hazards&Robots: A Dataset for Visual Anomaly Detection in Robotics*.
+This is the main repository for *Hazards&Robots: A Dataset for Visual Anomaly Detection in Robotics* and relative papers.
 
 The dataset can be find on Zenodo:
 - (v1) TAROS version : https://zenodo.org/record/7035788
 - (v2) RAL extension : https://zenodo.org/record/7074958
-- (v3) TBD: TBD
+- ### (v3) Data in Brief final version: https://zenodo.org/record/7859211
 
 
 ## Papers
@@ -50,11 +50,26 @@ DOI: https://doi.org/10.1109/LRA.2022.3192794
 
 ArXiv: https://arxiv.org/abs/2209.09786
 
-### TBD v3
+### <em>Hazards&Robots: A Dataset for Visual Anomaly Detection in Robotics</em>
+Dario Mantegazza, Alind Xhyra, Luca M. Gambardella, Alessandro Giusti, Jérôme Guzzi
 
+    We propose Hazards&Robots, a dataset for Visual Anomaly Detection in Robotics. 
+    The dataset is composed of 324,408 RGB frames, and corresponding feature vectors; 
+    it contains 145,470 normal frames and 178,938 anomalous ones categorized in 20 
+    different anomaly classes. The dataset can be used to train and test current and 
+    novel visual anomaly detection methods such as those based on deep learning vision models.
+    The data is recorded with a DJI Robomaster S1 front facing camera. The ground robot, 
+    controlled by a human operator, traverses university corridors. Considered anomalies 
+    include presence of humans, unexpected objects on the floor, defects to the robot. 
+
+DOI: https://doi.org/10.1016/j.dib.2023.109264
+
+This is an Open-Access paper published in [Data in Brief](https://www.sciencedirect.com/journal/data-in-brief/vol/48/suppl/C) Volume 48, June 2023, Journal
+
+### <em>NEXT</em>: Active Learning for Visual Anomaly Detection in Robotics? Stay Tuned ;)
 
 ## Codes
-Under `./code` you can find the code used for the <em>TAROS</em> paper under `./code/OLD_CODE` and the code for <em>RAL</em> paper under `./code/Latest`.
+Under `./code` you can find the code used for the <em>TAROS</em> paper under `./code/OLD_CODE` and the code for <em>RAL</em> paper under `./code/Latest`; the code for the <em>Data in Brief</em> is available on the Zenodo repository.
 
 We use python 3.8 and the requirements in `./code/Latest/requirements.txt`; follow the README.md under the `./code/Latest` to install and run the models.
 
@@ -65,8 +80,12 @@ The dataset is composed of three different scenarios:
 - Factory
 - Corridors
 
-In the version of the dataset of the <em>TAROS</em> paper the Corridors scenario has 52'607 samples and 8 anomalies. 
+The <em>TAROS</em>  version paper the Corridors scenario has 52'607 samples and 8 anomalies. 
+
 In the <em>RAL</em> paper we extended this scenario up to 132'838 frames and 16 anomalies.
+
+#### The latest <em>Data in Brief</em> release has 324'408 frames and 20 anomalies; for the first time we provide 512-dimension features vectors extracted with CLIP.
+
 <figure>
 <img src="images/dataset_examplev4.png" alt="RAL_paper_anomalies" style="background-color:white;"/>
 <p align = "center">Examples of samples of the <em>Corridors</em> scenario from the <em>RAL</em> paper </p>
@@ -77,7 +96,7 @@ This work was supported as a part of NCCR Robotics, a National Centre of Compete
 # Contact
 
 - If you have questions please contact us via email dario (dot) mantegazza (at) idsia (dot) ch
-- If you have problems with running our code, please open an issue and we will do our best to answer you
+- Questions or problems with the code? Just open an ISSUE, we will do our best to answer you as soon as possible :)
 - For more information about us visit our site https://idsia-robotics.github.io/
 
 # How to cite
