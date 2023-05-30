@@ -87,8 +87,8 @@ In the <em>RAL</em> paper we extended this scenario up to 132'838 frames and 16 
 #### The latest <em>Data in Brief</em> release has 324'408 frames and 20 anomalies; for the first time we provide 512-dimension features vectors extracted with CLIP.
 
 <figure>
-<img src="images/dataset_examplev4.png" alt="RAL_paper_anomalies" style="background-color:white;"/>
-<p align = "center">Examples of samples of the <em>Corridors</em> scenario from the <em>RAL</em> paper </p>
+<img src="images/samples.png" alt="DiB_paper_anomalies" style="background-color:white;"/>
+<p align = "center">Examples of samples of the <em>Corridors</em> scenario from the <em>Data in Brief</em> paper </p>
 </figure>
 
 ### Funding
